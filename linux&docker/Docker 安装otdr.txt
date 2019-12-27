@@ -1,0 +1,111 @@
+
+Docker 安装otdr
+
+otdr.tar.gz 在/root/目录下，解压后在readme.txt中有对应的说明。 
+
+## otdr docker 设置
+该程序仅为sor 文件解析程序，数据库和上传接口等详见之前发的otdr程序。
+将otdr.tar.gz 解压
+[root@localhost ~]# tar －xvf otdr.tar.gz 
+[root@localhost ~]# cd app
+[root@localhost app]# ls
+dockerfile  mariadb-connector-c-3.0.10-linux-x86_64.tar.gz  otdr-cron  process.tar.gz  run.sh  sources.list readme.txt
+
+[root@localhost app]# docker build -t otdrapp:ubuntu .
+[root@localhost app]# docker run -it --privileged=true -v /root/data:/root/data otdrapp:ubuntu
+
+docker build -t app:ubuntu .
+docker run -it --privileged=true -v /root/data/upload:/root/data/upload app:ubuntu
+
+-- 镜像目录设置： “/root/data”:镜像路径要上传目录一致；“/root/app”:为sor文件保存目录。
+
+## docker: Error response from daemon: Get https://registry-1.docker.io/v2/: net/http: request canceled 解决
+### 参考 ：https://blog.csdn.net/BigData_Mining/article/details/87869147
+### 解决方案：修改或新增 /etc/docker/daemon.json
+[root@localhost app]# vi /etc/docker/daemon.json
+
+{
+  "registry-mirrors": ["https://registry.docker-cn.com","http://hub-mirror.c.163.com"]
+}
+
+添加上面内容，保存退出。
+重启docker服务
+service docker restart
+成功！
+ "registry-mirrors": ["https://registry.docker-cn.com"],
+
+# 安装docker(在docker中安装otdr)
+
+https://www.cnblogs.com/chunguang/p/56566.html
+## 初始化 工作目录
+创建一个app 工作目录：
+root@slave:/root mkdir app
+
+＃创建Dockerfile 和run.sh文件：
+root@slave:/root cd app
+root@slave:/root/app touch dockerfile run.sh
+root@slave:/root/app ls
+dockerfile  run.sh
+
+
+## build docker file
+docker build -t otdrapp:ubuntu .
+
+## run 
+docker run -i -t otdrapp:ubuntu /bin/bash
+
+docker run -it -v /root/app:/root/data otdrapp:ubuntu /bin/bash
+docker run -it --privileged=true -v /root/data:/root/data otdrapp:ubuntu
+--镜像目录权限 privileged=true
+--镜像目录 /root/data镜像路径要上传目录一致
+--镜像目录只读 在/root/app:/data:ro
+
+
+## docker 清除container
+1.停止所有的container，这样才能够删除其中的images：
+
+docker stop $(docker ps -a -q)
+如果想要删除所有container的话再加一个指令：
+docker rm $(docker ps -a -q)
+2.查看当前有些什么images
+docker images
+3.删除images，通过image的id来指定删除谁
+docker rmi <image id>
+
+＃查看运行docker
+docker ps -a --no-trunc
+
+
+## 安装遇到问题解决方案
+
+### 解决挂载目录权限问题
+挂载宿主机已存在目录后，在容器内对其进行操作，报“Permission denied”。
+可通过两种方式解决：
+1> 关闭selinux。
+临时关闭：# setenforce 0
+永久关闭：修改/etc/sysconfig/selinux文件，将SELINUX的值设置为disabled。
+2> 以特权方式启动容器 
+指定--privileged参数
+如：# docker run -it --privileged=true -v /test:/soft centos /bin/bash
+
+
+### 执行以下命令会彻底清除所有容器。
+docker system prune -a -f
+
+docker images --no-trunc | grep '<none>' | awk '{ print $3 }' | xargs docker rmi
+
+### Dockerfile执行命令报错"The command '/bin/sh -c apt-get install -y git' returned a non-zero code: 100"解决
+https://blog.csdn.net/Urms_handsomeyu/article/details/86767018
+
+### docker: Error response from daemon: Get https://registry-1.docker.io/v2/: net/http: request canceled 解决
+https://blog.csdn.net/BigData_Mining/article/details/87869147
+
+### 解决“docker build Temporary failure resolving 'security.ubuntu.com'” 问题
+参考：https://www.jianshu.com/p/72f88edfaa33
+vi /etc/docker/daemon.json 
+{                                                                          
+    "dns": ["8.8.8.8", "114.114.114.114"]
+}  
+[root@dev002 process]# sudo service docker restart
+
+

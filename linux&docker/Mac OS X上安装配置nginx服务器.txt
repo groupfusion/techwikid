@@ -1,0 +1,33 @@
+Mac OS X上安装配置nginx服务器
+
+1.安装或更新Homebrew
+
+ brew update
+
+2.安装nginx
+
+ brew search nginx  //查询要安装的软件是否存在
+
+ brew info nginx  //这里我们多执行一步“废”命令，不过有利于我们后面的配置
+
+ brew install nginx
+
+3.验证结果
+
+ brew services start nginx
+
+启动成功,可以直接转到浏览器输入:http://localhost:8080
+
+4.nginx 配置
+
+vi /usr/local/etc/nginx/nginx.conf
+
+nginx重启命令
+
+brew services restart nginx
+
+5.启动nginx
+
+sudo nginx
+
+sudo nginx -s reload
