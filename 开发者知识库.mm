@@ -238,6 +238,43 @@
 <node CREATED="1582593826948" ID="ID_1744842959" MODIFIED="1582593829854" TEXT="jwt"/>
 </node>
 </node>
+<node CREATED="1583718092169" ID="ID_176887439" MODIFIED="1583718114867" TEXT="gateway&#x7f51;&#x5173;">
+<node CREATED="1583718248588" ID="ID_667593243" MODIFIED="1583718250728" TEXT="&#x4f7f;&#x7528;springcloud gateway&#x642d;&#x5efa;&#x7f51;&#x5173;">
+<node CREATED="1583718265155" ID="ID_50819191" MODIFIED="1583718267824" TEXT="https://www.cnblogs.com/qianwei/p/10127700.html"/>
+</node>
+<node CREATED="1583718214969" ID="ID_1664351543" MODIFIED="1583718219280" TEXT="Spring Cloud Gateway &#x4e4b; Filter">
+<node CREATED="1583718228095" ID="ID_1917009606" MODIFIED="1583718231552" TEXT="https://www.jianshu.com/p/17bbc8e10545"/>
+</node>
+</node>
+</node>
+<node CREATED="1515565406866" ID="ID_227060882" MODIFIED="1583718354787" POSITION="right" TEXT="&#x5fae;&#x670d;&#x52a1;">
+<node CREATED="1515565451561" ID="ID_292894857" MODIFIED="1515565457611" TEXT="sping boot">
+<node CREATED="1515565458342" ID="ID_1331221637" MODIFIED="1515565486051" TEXT="http://www.infoq.com/cn/articles/Microservices-SpringBoot"/>
+<node CREATED="1515565488154" ID="ID_95857684" MODIFIED="1515565500244" TEXT="Swagger">
+<node CREATED="1515565567040" ID="ID_716306132" MODIFIED="1515565568625" TEXT="&#x662f;&#x4e00;&#x4e2a;RESTFUL&#x63a5;&#x53e3;&#x7684;&#x6587;&#x6863;&#x5728;&#x7ebf;&#x81ea;&#x52a8;&#x751f;&#x6210;+&#x529f;&#x80fd;&#x6d4b;&#x8bd5;&#x529f;&#x80fd;&#x8f6f;&#x4ef6;&#x3002;&#x672c;&#x6587;&#x7b80;&#x5355;&#x4ecb;&#x7ecd;&#x4e86;&#x5728;&#x9879;&#x76ee;&#x4e2d;&#x96c6;&#x6210;swagger&#x7684;&#x65b9;&#x6cd5;&#x548c;&#x4e00;&#x4e9b;&#x5e38;&#x89c1;&#x95ee;&#x9898;&#x3002;&#x5982;&#x679c;&#x60f3;&#x6df1;&#x5165;&#x5206;&#x6790;&#x9879;&#x76ee;&#x6e90;&#x7801;&#xff0c;&#x4e86;&#x89e3;&#x66f4;&#x591a;&#x5185;&#x5bb9;&#xff0c;&#x89c1;&#x53c2;&#x8003;&#x8d44;&#x6599;&#x3002;  Swagger&#x662f;&#x4e00;&#x4e2a;&#x89c4;&#x8303;&#x548c;&#x5b8c;&#x6574;&#x7684;&#x6846;&#x67b6;&#xff0c;&#x7528;&#x4e8e;&#x751f;&#x6210;&#xff0c;&#x63cf;&#x8ff0;&#xff0c;&#x8c03;&#x7528;&#x548c;&#x53ef;&#x89c6;&#x5316;REST&#x98ce;&#x683c;&#x7684;Web&#x670d;&#x52a1;&#x3002;&#x603b;&#x4f53;&#x76ee;&#x6807;&#x662f;&#x4f7f;&#x5ba2;&#x6237;&#x7aef;&#x548c;&#x6587;&#x4ef6;&#x7cfb;&#x7edf;&#x4f5c;&#x4e3a;&#x670d;&#x52a1;&#x5668;&#x4ee5;&#x540c;&#x6837;&#x7684;&#x901f;&#x5ea6;&#x6765;&#x66f4;&#x65b0;&#x3002;&#x6587;&#x4ef6;&#x7684;&#x65b9;&#x6cd5;&#xff0c;&#x53c2;&#x6570;&#x548c;&#x6a21;&#x578b;&#x7d27;&#x5bc6;&#x96c6;&#x6210;&#x5230;&#x670d;&#x52a1;&#x5668;&#x7aef;&#x7684;&#x4ee3;&#x7801;&#xff0c;&#x5141;&#x8bb8;API&#x6765;&#x59cb;&#x7ec8;&#x4fdd;&#x6301;&#x540c;&#x6b65;.Swagger&#x8ba9;&#x90e8;&#x7f72;&#x7ba1;&#x7406;&#x548c;&#x4f7f;&#x7528;&#x529f;&#x80fd;&#x5f3a;&#x5927;&#x7684;API&#x4ece;&#x672a;&#x5982;&#x6b64;&#x7b80;&#x5355;&#x3002;"/>
+<node CREATED="1515565633247" ID="ID_1470653538" MODIFIED="1515565634399" TEXT="http://blog.csdn.net/wangnan9279/article/details/44541665"/>
+</node>
+<node CREATED="1583717306407" ID="ID_843782115" MODIFIED="1583717309022" TEXT="Vue.js + Spring Boot &#x9879;&#x76ee;&#x5b9e;&#x6218;">
+<node CREATED="1583718431762" ID="ID_1423770799" MODIFIED="1583718434160" TEXT="https://blog.csdn.net/neuf_soleil/category_9287210.html"/>
+</node>
+<node CREATED="1583718460388" ID="ID_1491406957" MODIFIED="1583718462987" TEXT="springboot+JWT+shiro&#x5b9e;&#x73b0;&#x8ba4;&#x8bc1;&#x53ca;&#x6743;&#x9650;&#x6821;&#x9a8c;">
+<node CREATED="1583718477650" ID="ID_183055943" MODIFIED="1583718514517" TEXT="https://blog.csdn.net/yuan_liang2/article/details/89019821"/>
+</node>
+</node>
+<node CREATED="1516845626911" ID="ID_66968994" MODIFIED="1556249821152" TEXT="spring cloud">
+<node CREATED="1515565654791" ID="ID_1175042823" MODIFIED="1515565657443" TEXT="consul">
+<node CREATED="1515565657854" ID="ID_1563442014" MODIFIED="1515565672773" TEXT="&#x662f;&#x4e00;&#x4e2a;&#x670d;&#x52a1;&#x7ba1;&#x7406;&#x8f6f;&#x4ef6;&#x3002; &#x652f;&#x6301;&#x591a;&#x6570;&#x636e;&#x4e2d;&#x5fc3;&#x4e0b;&#xff0c;&#x5206;&#x5e03;&#x5f0f;&#x9ad8;&#x53ef;&#x7528;&#x7684;&#xff0c;&#x670d;&#x52a1;&#x53d1;&#x73b0;&#x548c;&#x914d;&#x7f6e;&#x5171;&#x4eab;&#x3002; consul&#x652f;&#x6301;&#x5065;&#x5eb7;&#x68c0;&#x67e5;&#xff0c;&#x5141;&#x8bb8;&#x5b58;&#x50a8;&#x952e;&#x503c;&#x5bf9;&#x3002; &#x4e00;&#x81f4;&#x6027;&#x534f;&#x8bae;&#x91c7;&#x7528; Raft &#x7b97;&#x6cd5;,&#x7528;&#x6765;&#x4fdd;&#x8bc1;&#x670d;&#x52a1;&#x7684;&#x9ad8;&#x53ef;&#x7528;. &#x6210;&#x5458;&#x7ba1;&#x7406;&#x548c;&#x6d88;&#x606f;&#x5e7f;&#x64ad; &#x91c7;&#x7528;GOSSIP&#x534f;&#x8bae;&#xff0c;&#x652f;&#x6301;ACL&#x8bbf;&#x95ee;&#x63a7;&#x5236;"/>
+<node CREATED="1515565714502" ID="ID_1420833673" MODIFIED="1515565716130" TEXT="http://blog.csdn.net/viewcode/article/details/45915179"/>
+</node>
+<node CREATED="1556249831732" ID="ID_1476640509" MODIFIED="1556249838722" TEXT="&#x793a;&#x4f8b;">
+<node CREATED="1556251616515" ID="ID_1684309100" MODIFIED="1556251617423" TEXT="https://springcloud.cc/"/>
+<node CREATED="1556249839886" ID="ID_1384861932" MODIFIED="1556249857132" TEXT="https://github.com/zhangxd1989/spring-boot-cloud"/>
+<node CREATED="1556249824057" ID="ID_199281587" MODIFIED="1556249827936" TEXT="https://segmentfault.com/blog/spring-cloud"/>
+<node CREATED="1556250630179" ID="ID_1789596052" MODIFIED="1556250631380" TEXT="https://github.com/spring-cloud-incubator/spring-cloud-alibaba"/>
+<node CREATED="1556252251988" ID="ID_584271097" MODIFIED="1556252252990" TEXT="https://github.com/paascloud/paascloud-master"/>
+</node>
+<node CREATED="1556262074924" ID="ID_1220329154" MODIFIED="1556262075927" TEXT="http://www.itmuch.com/spring-cloud/spring-cloud-index/"/>
+</node>
 </node>
 <node CREATED="1493889979716" ID="ID_884080100" MODIFIED="1493889988073" POSITION="right" TEXT="&#x673a;&#x5668;&#x5b66;&#x4e60;">
 <node CREATED="1493889989216" ID="ID_1329398856" MODIFIED="1493890021790" TEXT="&#x4ece;0&#x5230;1&#xff1a;&#x6211;&#x662f;&#x5982;&#x4f55;&#x5728;&#x4e00;&#x5e74;&#x5185;&#x65e0;&#x5e08;&#x81ea;&#x901a;&#x673a;&#x5668;&#x5b66;&#x4e60;&#x7684;&#xff1a;http://www.leiphone.com/news/201609/SJGulTsdGcisR8Wz.html"/>
@@ -293,29 +330,6 @@
 <node CREATED="1516844456428" ID="ID_1109661663" MODIFIED="1516844461630" TEXT="fastDFS">
 <node CREATED="1516844485138" ID="ID_962802517" MODIFIED="1516844486674" TEXT="https://www.jianshu.com/p/1c71ae024e5e"/>
 </node>
-</node>
-</node>
-<node CREATED="1515565406866" ID="ID_227060882" MODIFIED="1515565447961" POSITION="right" TEXT="&#x5fae;&#x670d;&#x52a1;">
-<node CREATED="1515565451561" ID="ID_292894857" MODIFIED="1515565457611" TEXT="sping boot">
-<node CREATED="1515565458342" ID="ID_1331221637" MODIFIED="1515565486051" TEXT="http://www.infoq.com/cn/articles/Microservices-SpringBoot"/>
-<node CREATED="1515565488154" ID="ID_95857684" MODIFIED="1515565500244" TEXT="Swagger">
-<node CREATED="1515565567040" ID="ID_716306132" MODIFIED="1515565568625" TEXT="&#x662f;&#x4e00;&#x4e2a;RESTFUL&#x63a5;&#x53e3;&#x7684;&#x6587;&#x6863;&#x5728;&#x7ebf;&#x81ea;&#x52a8;&#x751f;&#x6210;+&#x529f;&#x80fd;&#x6d4b;&#x8bd5;&#x529f;&#x80fd;&#x8f6f;&#x4ef6;&#x3002;&#x672c;&#x6587;&#x7b80;&#x5355;&#x4ecb;&#x7ecd;&#x4e86;&#x5728;&#x9879;&#x76ee;&#x4e2d;&#x96c6;&#x6210;swagger&#x7684;&#x65b9;&#x6cd5;&#x548c;&#x4e00;&#x4e9b;&#x5e38;&#x89c1;&#x95ee;&#x9898;&#x3002;&#x5982;&#x679c;&#x60f3;&#x6df1;&#x5165;&#x5206;&#x6790;&#x9879;&#x76ee;&#x6e90;&#x7801;&#xff0c;&#x4e86;&#x89e3;&#x66f4;&#x591a;&#x5185;&#x5bb9;&#xff0c;&#x89c1;&#x53c2;&#x8003;&#x8d44;&#x6599;&#x3002;  Swagger&#x662f;&#x4e00;&#x4e2a;&#x89c4;&#x8303;&#x548c;&#x5b8c;&#x6574;&#x7684;&#x6846;&#x67b6;&#xff0c;&#x7528;&#x4e8e;&#x751f;&#x6210;&#xff0c;&#x63cf;&#x8ff0;&#xff0c;&#x8c03;&#x7528;&#x548c;&#x53ef;&#x89c6;&#x5316;REST&#x98ce;&#x683c;&#x7684;Web&#x670d;&#x52a1;&#x3002;&#x603b;&#x4f53;&#x76ee;&#x6807;&#x662f;&#x4f7f;&#x5ba2;&#x6237;&#x7aef;&#x548c;&#x6587;&#x4ef6;&#x7cfb;&#x7edf;&#x4f5c;&#x4e3a;&#x670d;&#x52a1;&#x5668;&#x4ee5;&#x540c;&#x6837;&#x7684;&#x901f;&#x5ea6;&#x6765;&#x66f4;&#x65b0;&#x3002;&#x6587;&#x4ef6;&#x7684;&#x65b9;&#x6cd5;&#xff0c;&#x53c2;&#x6570;&#x548c;&#x6a21;&#x578b;&#x7d27;&#x5bc6;&#x96c6;&#x6210;&#x5230;&#x670d;&#x52a1;&#x5668;&#x7aef;&#x7684;&#x4ee3;&#x7801;&#xff0c;&#x5141;&#x8bb8;API&#x6765;&#x59cb;&#x7ec8;&#x4fdd;&#x6301;&#x540c;&#x6b65;.Swagger&#x8ba9;&#x90e8;&#x7f72;&#x7ba1;&#x7406;&#x548c;&#x4f7f;&#x7528;&#x529f;&#x80fd;&#x5f3a;&#x5927;&#x7684;API&#x4ece;&#x672a;&#x5982;&#x6b64;&#x7b80;&#x5355;&#x3002;"/>
-<node CREATED="1515565633247" ID="ID_1470653538" MODIFIED="1515565634399" TEXT="http://blog.csdn.net/wangnan9279/article/details/44541665"/>
-</node>
-</node>
-<node CREATED="1516845626911" ID="ID_66968994" MODIFIED="1556249821152" TEXT="spring cloud">
-<node CREATED="1515565654791" ID="ID_1175042823" MODIFIED="1515565657443" TEXT="consul">
-<node CREATED="1515565657854" ID="ID_1563442014" MODIFIED="1515565672773" TEXT="&#x662f;&#x4e00;&#x4e2a;&#x670d;&#x52a1;&#x7ba1;&#x7406;&#x8f6f;&#x4ef6;&#x3002; &#x652f;&#x6301;&#x591a;&#x6570;&#x636e;&#x4e2d;&#x5fc3;&#x4e0b;&#xff0c;&#x5206;&#x5e03;&#x5f0f;&#x9ad8;&#x53ef;&#x7528;&#x7684;&#xff0c;&#x670d;&#x52a1;&#x53d1;&#x73b0;&#x548c;&#x914d;&#x7f6e;&#x5171;&#x4eab;&#x3002; consul&#x652f;&#x6301;&#x5065;&#x5eb7;&#x68c0;&#x67e5;&#xff0c;&#x5141;&#x8bb8;&#x5b58;&#x50a8;&#x952e;&#x503c;&#x5bf9;&#x3002; &#x4e00;&#x81f4;&#x6027;&#x534f;&#x8bae;&#x91c7;&#x7528; Raft &#x7b97;&#x6cd5;,&#x7528;&#x6765;&#x4fdd;&#x8bc1;&#x670d;&#x52a1;&#x7684;&#x9ad8;&#x53ef;&#x7528;. &#x6210;&#x5458;&#x7ba1;&#x7406;&#x548c;&#x6d88;&#x606f;&#x5e7f;&#x64ad; &#x91c7;&#x7528;GOSSIP&#x534f;&#x8bae;&#xff0c;&#x652f;&#x6301;ACL&#x8bbf;&#x95ee;&#x63a7;&#x5236;"/>
-<node CREATED="1515565714502" ID="ID_1420833673" MODIFIED="1515565716130" TEXT="http://blog.csdn.net/viewcode/article/details/45915179"/>
-</node>
-<node CREATED="1556249831732" ID="ID_1476640509" MODIFIED="1556249838722" TEXT="&#x793a;&#x4f8b;">
-<node CREATED="1556251616515" ID="ID_1684309100" MODIFIED="1556251617423" TEXT="https://springcloud.cc/"/>
-<node CREATED="1556249839886" ID="ID_1384861932" MODIFIED="1556249857132" TEXT="https://github.com/zhangxd1989/spring-boot-cloud"/>
-<node CREATED="1556249824057" ID="ID_199281587" MODIFIED="1556249827936" TEXT="https://segmentfault.com/blog/spring-cloud"/>
-<node CREATED="1556250630179" ID="ID_1789596052" MODIFIED="1556250631380" TEXT="https://github.com/spring-cloud-incubator/spring-cloud-alibaba"/>
-<node CREATED="1556252251988" ID="ID_584271097" MODIFIED="1556252252990" TEXT="https://github.com/paascloud/paascloud-master"/>
-</node>
-<node CREATED="1556262074924" ID="ID_1220329154" MODIFIED="1556262075927" TEXT="http://www.itmuch.com/spring-cloud/spring-cloud-index/"/>
 </node>
 </node>
 <node CREATED="1494378927836" ID="ID_1000908661" MODIFIED="1494378938877" POSITION="left" TEXT="&#x8f6f;&#x6280;&#x80fd;">
@@ -477,6 +491,12 @@
 <node CREATED="1483584653938" ID="ID_752717619" MODIFIED="1483584657150" TEXT="hudson"/>
 <node CREATED="1483584657634" ID="ID_849879378" MODIFIED="1483584771921" TEXT="jenkins"/>
 </node>
+<node CREATED="1583737135923" ID="ID_760705017" MODIFIED="1583737155139" TEXT="&#x5f00;&#x53d1;&#x5de5;&#x5177;">
+<node CREATED="1583737157634" ID="ID_894664534" MODIFIED="1583737163465" TEXT="vscode">
+<node CREATED="1583737165534" ID="ID_981045233" MODIFIED="1583737179117" TEXT="https://blog.csdn.net/hugowang/article/details/81952098"/>
+<node CREATED="1583737191039" ID="ID_104649157" MODIFIED="1583737192769" TEXT="https://www.cnblogs.com/miskis/p/9816135.html"/>
+</node>
+</node>
 </node>
 <node CREATED="1483583864119" ID="ID_672764536" MODIFIED="1483583871434" POSITION="left" TEXT="&#x6280;&#x672f;&#x7ad9;&#x70b9;">
 <node CREATED="1483583873585" ID="ID_944876308" MODIFIED="1483583983954" TEXT="http://www.importnew.com/"/>
@@ -489,6 +509,11 @@
 <node CREATED="1483607308673" ID="ID_1301964242" MODIFIED="1483607313945" TEXT="&#x8bbe;&#x8ba1;&#x6a21;&#x5f0f;">
 <node CREATED="1483607315733" ID="ID_1356072930" MODIFIED="1483607341603" TEXT="&#x5b66;&#xff08;Java&#xff09;&#x8bbe;&#x8ba1;&#x6a21;&#x5f0f;http://www.importnew.com/6914.html">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1583401881541" ID="ID_374757486" MODIFIED="1583401888564" TEXT="&#x77e5;&#x8bc6;&#x70b9;">
+<node CREATED="1583401894143" ID="ID_970840475" MODIFIED="1583401897996" TEXT="&#x57df;&#x6a21;&#x578b;&#x4e2d;&#x7684;&#x5b9e;&#x4f53;&#x7c7b;&#x5206;&#x4e3a;&#x56db;&#x79cd;&#x7c7b;&#x578b;&#xff1a;VO&#x3001;DTO&#x3001;DO&#x3001;PO">
+<node CREATED="1583401907192" ID="ID_1223635944" MODIFIED="1583401909547" TEXT="https://www.cnblogs.com/burningmyself/p/9453776.html"/>
 </node>
 </node>
 </node>
